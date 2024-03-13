@@ -75,7 +75,11 @@ python3 -m http.server --directory 'docs/_build/html'
 ## Code Contributions
 
 Each tool of the bfx family is a standalone submodule. They usually can be installed separately.
-To add a new tool, go to `src/bfx` and clone the tool's repository.
+To add a new tool, go to `update_submodules.sh` and add the tool's repository.
+
+If the submodule does not have all source files in `src/<ModuleName>`,
+replace the logic so that only those are kept.
+
 They modify:
 
 - `src/bfx/__init__.py`
