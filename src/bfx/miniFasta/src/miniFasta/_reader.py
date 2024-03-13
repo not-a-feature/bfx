@@ -7,14 +7,13 @@ This is the reader part.
 License: GPL-3.0
 """
 
-from ._miniFasta import fasta_object
-
-from zipfile import ZipFile
 import gzip
 import tarfile
-
 from os import path
-from typing import Iterator, Union, List
+from typing import Iterator, List, Union
+from zipfile import ZipFile
+
+from ._miniFasta import fasta_object
 
 
 def __maybeByteToStr(maybeByte) -> str:

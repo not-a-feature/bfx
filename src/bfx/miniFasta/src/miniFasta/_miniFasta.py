@@ -8,8 +8,8 @@ Or:  https://pypi.org/project/miniFasta/
 License: GPL-3.0
 """
 
-from typing import Iterator
 from dataclasses import dataclass
+from typing import Iterator
 
 # Usual translation dictionary according to
 # https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1

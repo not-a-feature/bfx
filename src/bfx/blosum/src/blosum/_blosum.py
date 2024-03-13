@@ -7,10 +7,11 @@ Or:  https://pypi.org/project/blosum/
 License: GPL-3.0
 """
 
-from warnings import warn
-from ._data import default_blosum
 from collections import defaultdict
-from typing import Dict, Union, DefaultDict
+from typing import DefaultDict, Dict, Union
+from warnings import warn
+
+from ._data import default_blosum
 
 
 class BLOSUM(defaultdict):  # type: ignore

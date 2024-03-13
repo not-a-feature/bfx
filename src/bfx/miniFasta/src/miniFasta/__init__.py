@@ -1,6 +1,6 @@
-from ._miniFasta import print_fasta, translate_seq, reverse_comp
+from ._miniFasta import print_fasta, reverse_comp, translate_seq
 from ._reader import read
-from ._writer import write, fasta_object
+from ._writer import fasta_object, write
 
 __all__ = [
     "fasta_object",

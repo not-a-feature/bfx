@@ -3,7 +3,6 @@ BLOSUM data dictionary.
 Gathered from https://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source/data/.
 """
 
-
 default_blosum = {
     45: {
         "A": {

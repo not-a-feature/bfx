@@ -14,9 +14,9 @@ except ModuleNotFoundError:
     # Import as submodule of the bfx suite.
     from ....miniFasta.src.miniFasta import fasta_object  # type: ignore
 
+from dataclasses import dataclass
 from statistics import mean, median, variance
 from typing import Dict, List, Union
-from dataclasses import dataclass
 
 
 @dataclass

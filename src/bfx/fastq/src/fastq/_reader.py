@@ -7,14 +7,13 @@ This is the reader part.
 License: GPL-3.0
 """
 
-from ._fastq import fastq_object
-
-from zipfile import ZipFile
 import gzip
 import tarfile
-
 from os import path
 from typing import Iterator
+from zipfile import ZipFile
+
+from ._fastq import fastq_object
 
 
 def __maybeByteToStr(maybeByte) -> str:

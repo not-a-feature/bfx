@@ -7,9 +7,9 @@ Or:  https://pypi.org/project/tajimas-d/
 License: GPL-3.0
 """
 
+import argparse
 from itertools import combinations
 from typing import List
-import argparse
 
 try:
     from miniFasta import fasta_object, read

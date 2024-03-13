@@ -1,6 +1,6 @@
 from ._fastq import print_fastq
 from ._reader import read
-from ._writer import write, fastq_object
+from ._writer import fastq_object, write
 
 __all__ = [
     "fastq_object",
