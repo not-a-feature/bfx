@@ -32,3 +32,5 @@ for repo in "${repos[@]}"; do
 
     mv "$repo_name" "src/bfx/$repo_name"
 done
+
+pre-commit run --all-files
