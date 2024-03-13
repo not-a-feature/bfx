@@ -1,5 +1,5 @@
 
-[![ReadTheDocs](https://readthedocs.org/projects/bfx/badge/?version=latest)](https://bfx.readthedocs.io/en/stable/)
+[![ReadTheDocs](https://readthedocs.org/projects/py-bfx/badge/?version=latest)](https://py-bfx.readthedocs.io/en/latest/)
 [![PyPI-Server](https://img.shields.io/pypi/v/bfx.svg)](https://pypi.org/project/bfx/)
 [![Monthly Downloads](https://pepy.tech/badge/bfx/month)](https://pepy.tech/project/bfx)
 
